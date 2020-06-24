@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/flex.css">
+</head>
+<body style="overflow: auto;">
+<div id="cvWrapper" class="layout vertical">
+  <div id="title" class="layout vertical center-center">
+    <h2 id="name">
+      Walter Kimaro
+    </h2>
+    <p id="profession">
+      Mobile Developer
+    </p>
+
+    <p style="margin-top: 0.7rem; font-size: 1.1rem; text-transform: none; color: #444;">
+      <span>+255 717 138 056</span>,&nbsp;
+      <span>wakyj07@gmail.com</span>
+    </p>
+  </div>
+  <div id="mainContent">
+    <div id="longSections" class="flex" style="padding: 0 3%; ">
+      <div id="about" style="margin-bottom: 2rem;">
+        <p style="font-size: 1.3rem; color: #333; line-height: 1.8;">
+          I am a detail oriented mobile developer who is passionate about creating attention to detail mobile user experiences. 
+          I also beleive that great looking and familiar UI is crucial in providing value and creating loyal users.
+        </p>
+      </div>
+      
+      <div class="layou" style="margin-bottom: 2rem;">
+        <div id="edu">
+          <h3>EDUCATION</h3>
+          <div class="section-item">
+            <h5>Bachelor of Computer Science</h5>
+            <p>IFM ( 2015 - 2018 )</p>
+          </div>
+          <!-- <div class="section-item">
+            <h5>Moshi Technical</h5>
+            <p>Moshi - Kilimanjaro</p>
+          </div> -->
+        </div>
+
+        <div id="skills" class="flex">
+          <h3>SKILLS</h3>
+          <!-- <p>HTML & CSS</p>
+          <p>Javascript</p>
+          <p>PHP</p>
+          <p>Laravel</p> -->
+          <strong>Android SDK,</strong>
+          <strong>Flutter,</strong>
+          <strong>Ionic,</strong>
+          <strong>Phonegap & Cordova,</strong>
+          <strong>Jquery Mobile,</strong>
+          <strong>Git & Github</strong>
+        </div>
+      </div>
+      
+      <div class="layou">
+        <div id="experience" class="flex">
+          <h3>EXPERIENCE</h3>
+          <!-- <div class="section-item">
+            <h5>IPF Softwares | June 2017 - Present</h5>
+            <h5>Web Developer & Designer</h5>
+          </div> -->
+          <div class="layout wrap">
+            <div class="flex section-item">
+              <h5>Freelance Work</h5>
+              <p>2015 - Present</p>
+            </div>
+            
+            <div class="flex section-item">
+              <h5>Soma Apps</h5>
+              <p>Oct 2016 - June 2017</p>
+            </div>
+            
+            <div class="flex section-item">
+              <h5>SoftMed</h5>
+              <p>Feb 2016 - Jul 2016</p>
+            </div>
+          </div>
+        </div>
+  
+        <div id="works" class="flex">
+          <h3>FEATURED WORK</h3>
+          
+          <div class="layout">
+            <div class="section-item flex">
+              <h5>
+                MisosiHub
+              </h5>
+              <p>Food Ordering App</p>
+              <a target="_blank" href="https://play.google.com/store/apps/details?id=com.misosiapp.misosiapp&hl=en">
+                Playstore link
+              </a>
+            </div>
+    
+            <div class="section-item flex">
+              <h5>
+                Denty
+              </h5>
+              <p>Student App</p>
+              <a target="_blank" href="https://play.google.com/store/apps/details?id=com.akilsw.waky.denti&hl=en">
+                Playstore link
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+  <style>
+    #app{
+      overflow: auto;
+      height: 100vh;
+      background: #f0f0f0;
+    }
+  
+    #cvWrapper{
+      position: relative;
+      background: #fff;
+      /* width: 595px; */
+      /* height: 842px; */
+      width: 794px;
+      height: 1123px;
+      padding: 1% 2%;
+      margin: 2em auto;
+      overflow: hidden;
+      box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+    }
+  
+    #title{
+        padding-top: 5em;   
+        padding-bottom: 1.5em;  
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 2em;
+        margin-right: 2em;  
+        margin-bottom: 1.5em;
+        border-bottom: 2px solid #75e8e3;
+        flex-shrink: 0;
+    }
+  
+    #name{
+        font-family: Bold;
+        font-size: 2.2em;
+        margin-bottom: 0.3em;
+    }
+  
+    #profession{
+        /* font-family: Light; */
+        color: #333;
+        font-size: 1.2em;
+    }
+  
+    #mainContent{
+        margin-bottom: 0.8em;
+    }
+  
+    #miniSections{
+        width: 30%;
+        /*width: 230px;*/
+        /*padding-right: 1em;*/
+        /*margin-right: 1em;*/
+        /*border-right: 1px solid #999;*/
+    }
+  
+    #divider{
+        /* margin: 0 1.5em; */
+        width: 0;
+        /* border-right: 1px solid #ccc; */
+    }
+  
+    .mini-section{
+        padding-top: 1em;
+        text-align: right;
+    }
+  
+    .mini-section:first-child{
+        padding-top: 0.8em;
+    }
+  
+    h3{
+        color: #932727;
+        font-weight: 500;
+        /*font-family: Bold;*/
+        font-size: 1.3rem;
+        margin-bottom: 0.7rem;
+        letter-spacing: 0.04em;
+    }
+  
+    .mini-section h5, 
+    .mini-section p{
+        font-size: 0.9em;
+        line-height: 1.5em;
+        color: #777;
+    }
+  
+    .mini-section h5{
+        /* font-family: SemiBold; */
+        color: #000;
+    }
+  
+    .mini-section h5 + p{
+        margin-top: -0.2em;
+    }
+  
+    #contacts > .layout{
+        padding: 0.2em 0;
+    }
+  
+    #contacts > .layout > span{
+        font-size: 0.9em;
+    }
+  
+    #contacts i{
+        margin-left: 0.5em;
+        width: 20px;
+        height: 20px;
+        background: #777;
+        border-radius: 50%;
+        flex-shrink: 0;
+    }
+  
+    #contacts svg{
+        fill: #fff;
+        width: 12px;
+        height: 12px;
+    }
+
+    .layout > .section-item{
+      flex: none;
+      width: 50%;
+      flex-shrink: 0;
+    }
+
+    .section-item{
+      margin-bottom: 0.7rem;
+    }
+  
+    #edu .section-item,
+    #skills .section-item{
+        margin-bottom: 2rem;
+    }
+  
+    h5, p, strong{
+        font-size: 1.3rem;
+        line-height: 1.5em;
+        color: #777;
+    }
+
+    strong{
+      margin-right: 0.3rem;
+      color: #333333 !important;
+    }
+  
+    h5{
+      font-size: 1.4rem;
+      color: #000;
+    }
+  
+    .section-item p{
+      color: #aaa !important;
+    }
+
+    .section-item p + a{
+      display: block;
+      margin-top: 0.7rem;
+      font-size: 1rem;
+      color: #932727;
+      color: #379590;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+  
+    #about{
+        margin-top: 0.5em;
+        margin-bottom: 1.5rem;
+    }
+  
+    #experience{
+      margin-bottom: 1.5rem;
+    }
+  
+    @media print{
+      @page {
+        size: A4 portrait;
+          margin: 0;
+      }
+      
+      #cvWrapper{
+          width: 100vw;
+          height: 100vh;
+          padding: 1% 4%;
+          box-shadow: none;
+          margin: 0;
+          overflow: visible;
+      }
+      
+      #app{
+        overflow: visible;
+        height: auto;
+        background: transparent;
+      }
+  
+      #contacts i{
+        display: none;
+      }
+  
+      #divider{
+        margin: 0 1.5em;
+      }
+    }
+  </style>
+</body>
+</html>
